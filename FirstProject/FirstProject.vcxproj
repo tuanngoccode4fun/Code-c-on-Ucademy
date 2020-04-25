@@ -143,6 +143,9 @@
   <ItemGroup>
     <Text Include="Types of variables.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Escape Characters.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
