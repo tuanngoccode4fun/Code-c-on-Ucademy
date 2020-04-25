@@ -1,12 +1,11 @@
 #include<stdio.h>
 #include<stdbool.h>
+enum direction {up,down,left=10,right};
 int main()
 {
-  /*  float jason = 23.333;
-    double jason2 = 55.5555555555555e+11;
-    _Bool boolVariable = 1;*/
-    bool trueBoolean = true;
-    bool falseBoolean = false;
-
+    printf("\nup: %d", up);
+    printf("\ndown: %d", down);
+    printf("\nleft: %d", left);
+    printf("\nright: %d", right);
     return 0;
 }
