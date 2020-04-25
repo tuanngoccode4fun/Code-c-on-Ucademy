@@ -2,7 +2,7 @@
 #include<stdbool.h>
 int main()
 {
-    char charText = '\n';
-    printf("%c", charText);
+    int sum = 98;
+    printf("The sum is %d\n", sum);
     return 0;
 }
