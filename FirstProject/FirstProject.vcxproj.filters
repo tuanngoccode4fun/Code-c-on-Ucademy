@@ -29,5 +29,8 @@
     <Image Include="Escape Characters.jpg">
       <Filter>Image</Filter>
     </Image>
+    <Image Include="sumary printf chars.jpg">
+      <Filter>Image</Filter>
+    </Image>
   </ItemGroup>
 </Project>
