@@ -2,15 +2,13 @@
 #include<stdbool.h>
 int main()
 {  
-        double width = 32.3;
-        double height = 15.3;
-        double perimeter = 0.0;
-        double area = 0.0;
-        perimeter = 2.0 * (width + height);
-        area = width * height;
-        printf("Perimeter is : %f\n", perimeter);
-        printf("Area is : %f\n", area);
-
- 
-        return 0;
+    enum Company {GOOGLE=3,FACEBOOK,XEROX,YAHOO,EBAY,MICROSOFT};
+    enum Company google = GOOGLE;
+    enum Company facebook = FACEBOOK;
+    enum Company xerox = XEROX;
+    enum Company yahoo = YAHOO;
+    printf("The value of xerox is : %d\n", xerox);
+    printf("The value of facbook is : %d\n", facebook);
+    printf("The value of google is : %d\n", google);
+    return 0;
 }
