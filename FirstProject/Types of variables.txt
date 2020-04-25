@@ -1,0 +1,8 @@
+int : a variable of type int can be used to contain integral values only include 
+  . it must be an integer and it can be positive, negative, or zero.
+float 
+double: the double type is the same as type float, only with roughly twice the precision.
+  . used whenever the range provided by a float variable is not sufficient.
+  . can store twice as many significant digits.
+char 
+_Bool
