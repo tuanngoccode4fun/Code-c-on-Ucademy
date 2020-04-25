@@ -1,12 +1,16 @@
 #include<stdio.h>
 #include<stdbool.h>
-int main(int argc, char *argv[])
+int main()
 {  
-    int numberOfArguments = argc;
-    char* argument1 = argv[0];
-    char* argument2 = argv[1];
-    printf("Number of Arguments: %d\n", numberOfArguments);
-    printf("Argument 1 is the program name: %s\n", argument1);
-    printf("Argument 2 is the program name: %s\n", argument2);
-    return 0;
+        double width = 32.3;
+        double height = 15.3;
+        double perimeter = 0.0;
+        double area = 0.0;
+        perimeter = 2.0 * (width + height);
+        area = width * height;
+        printf("Perimeter is : %f\n", perimeter);
+        printf("Area is : %f\n", area);
+
+ 
+        return 0;
 }
